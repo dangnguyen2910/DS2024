@@ -10,6 +10,9 @@ USTH ICT 2024 Distributed Systems
 
 Group Info
 =======================
+* Nguyễn Quang Huy - 22BI13195
+* Lê Linh Long - 22BI13262
+* Phạm Thái Sơn - 22BI13397
+* Nguyễn Tuấn Khải - 22BI13202
+* Nguyễn Hải Đăng - 22BI13073
 
-* Name 1 (ID1)
-* Name 2 (ID2)
