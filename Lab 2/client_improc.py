@@ -3,7 +3,7 @@ from PIL import Image
 import base64
 from io import BytesIO
 
-input_image_path = "input_image.png"  
+input_image_path = "dog.png"  
 output_image_path = "grayscale_image.png"
 proxy = xmlrpc.client.ServerProxy("http://localhost:8000")
 with open(input_image_path, "rb") as image_file:

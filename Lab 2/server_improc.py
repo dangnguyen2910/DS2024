@@ -1,4 +1,4 @@
-from malprc.server import SimpleHTTPServer
+from xmlrpc.server import SimpleXMLRPCServer
 from PIL import Image
 import base64
 from io import BytesIO
@@ -13,7 +13,7 @@ def convert_to_grayscale(encoded_image):
     encoded_gray_image = base64.b64encode(buffer.read()).decode()
     return encoded_gray_image
 
-server = SimpleHTTPServer(('localhost', 8000))
+server = SimpleXMLRPCServer(('localhost', 8000))
 server.register_function('convert_to_grayscale', convert_to_grayscale)
 print("server is running...")
 server.serve_forever()
