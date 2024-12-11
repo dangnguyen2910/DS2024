@@ -14,6 +14,6 @@ def convert_to_grayscale(encoded_image):
     return encoded_gray_image
 
 server = SimpleXMLRPCServer(('localhost', 8000))
-server.register_function('convert_to_grayscale', convert_to_grayscale)
+server.register_function(convert_to_grayscale, 'convert_to_grayscale')
 print("server is running...")
 server.serve_forever()
